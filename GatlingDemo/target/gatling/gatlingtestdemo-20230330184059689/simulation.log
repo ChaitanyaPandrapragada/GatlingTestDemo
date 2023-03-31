@@ -1,0 +1,5 @@
+RUN	testsimulation.GatlingTestDemo	gatlingtestdemo	1680201659689	t	3.9.2
+USER	User details- simulation	START	1680201661246
+REQUEST		Authenticate User	1680201661232	1680201662869	KO	status.find.is(200), but actually found 400
+ERROR	Create a new User-Tracey: Failed to build request: No attribute named 'authtoken' is defined 	1680201664986
+USER	User details- simulation	END	1680201665003

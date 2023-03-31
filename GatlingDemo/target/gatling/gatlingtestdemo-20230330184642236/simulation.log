@@ -1,0 +1,5 @@
+RUN	testsimulation.GatlingTestDemo	gatlingtestdemo	1680202002236	i	3.9.2
+USER	User details- simulation	START	1680202003850
+REQUEST		Authenticate User	1680202003834	1680202005298	KO	status.find.is(200), but actually found 400
+ERROR	Create a new User-Emma: Failed to build request: No attribute named 'authtoken' is defined 	1680202007402
+USER	User details- simulation	END	1680202007417

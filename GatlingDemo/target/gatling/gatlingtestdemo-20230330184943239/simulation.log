@@ -1,0 +1,5 @@
+RUN	testsimulation.GatlingTestDemo	gatlingtestdemo	1680202183239	y	3.9.2
+USER	User details- simulation	START	1680202184822
+REQUEST		Authenticate User	1680202184807	1680202185906	OK	 
+REQUEST		Create a new User-George	1680202188011	1680202188334	OK	 
+USER	User details- simulation	END	1680202188340
